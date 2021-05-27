@@ -4,4 +4,4 @@ Graphically Game Under Development.But you can see the Game Concept By Playing t
 
 © copyright All Rights Reserved
 
-Developed By [Viplov Surve](https://github.com/viplovsurv3) and [sachin Lohar](https://github.com/sachinl0har).
+Developed By [Viplov Surve](https://github.com/viplovsurv3) and [sachin Lohar](https://www.sachinlohar.ml).
