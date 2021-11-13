@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/fairythrow1"
+        android:duration="100"/>
+    <item android:drawable="@drawable/fairythrow2"
+        android:duration="100"/>
+    <item android:drawable="@drawable/fairythrow3"
+        android:duration="100"/>
+    <item android:drawable="@drawable/fairythrow4"
+        android:duration="100"/>
+    <item android:drawable="@drawable/fairythrow1"
+        android:duration="100"/>
+</animation-list>

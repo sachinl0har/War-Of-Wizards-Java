@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Round3">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="ROUND 3"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#ffffff"
+        android:layout_marginTop="36sp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:src="@drawable/groundcharimgleft"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="60sp"
+        android:id="@+id/round3charleft"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:src="@drawable/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="40sp"
+        android:id="@+id/round3groundthrowleft"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginBottom="90dp"
+        android:id="@+id/round3throwleft"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:src="@drawable/groundcharimgright"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="60sp"
+        android:id="@+id/round3charright"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:src="@drawable/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="40sp"
+        android:id="@+id/round3groundthrowright"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="140dp"
+        android:layout_marginBottom="90dp"
+        android:id="@+id/round3throwright"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="SCORE"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:layout_margin="30dp"
+        android:id="@+id/score"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:text="BEGINS"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:id="@+id/display"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="❌"
+        android:textColor="#ffffff"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+        android:id="@+id/quit"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+
+        <Button
+            android:id="@+id/btnGround"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GROUND🟫"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:layout_margin="40sp"/>
+        <Button
+            android:id="@+id/btnIce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ICE⚪"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:layout_margin="40sp"/>
+
+
+        <Button
+            android:id="@+id/btnSteel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STEEL⚙️"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:layout_margin="40sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✔"
+        android:textColor="#ff0000"
+        android:layout_margin="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="30dp"
+        android:id="@+id/round4"/>
+
+</RelativeLayout>

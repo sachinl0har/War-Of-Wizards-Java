@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Round1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/round2"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="ROUND 1"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#ffffff"
+        android:layout_marginTop="36sp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:src="@drawable/firecharimgleft"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="60sp"
+        android:id="@+id/round1charleft"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginBottom="90dp"
+        android:id="@+id/round1throwleft"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:src="@drawable/firecharimgright"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="60sp"
+        android:id="@+id/round1charright"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="140dp"
+        android:layout_marginBottom="90dp"
+        android:id="@+id/round1throwright"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="SCORE"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:layout_margin="30dp"
+        android:id="@+id/score"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:text="BEGINS"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:id="@+id/display"/>
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="❌"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+
+    <Button
+        android:id="@+id/btnFire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" FIRE🔥"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:background="@color/cardview_shadow_start_color"
+        android:layout_margin="40sp"/>
+    <Button
+        android:id="@+id/btnWater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" WATER💧"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:background="@color/cardview_shadow_start_color"
+        android:layout_margin="40sp"/>
+
+
+        <Button
+            android:id="@+id/btnLeaf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" LEAF🍃"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:background="@color/cardview_shadow_start_color"
+            android:layout_margin="40sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✔"
+        android:layout_margin="20dp"
+        android:textColor="#ff0000"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="30dp"
+        android:id="@+id/round2"/>
+
+</RelativeLayout>

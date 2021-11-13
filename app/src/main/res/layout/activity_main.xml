@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="68sp"
+        android:text="WAR OF WIZARDS"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#ffffff"
+        android:layout_marginTop="36sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-black"
+        android:text=" PLAY "
+        android:background="@color/black"
+        android:textColor="#ff0000"
+        android:textSize="54sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ABOUT "
+        android:fontFamily="sans-serif-black"
+        android:textSize="54sp"
+        android:background="@color/black"
+        android:layout_below="@id/play"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff0000"
+        android:id="@+id/about"/>
+
+</RelativeLayout>

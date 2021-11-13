@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Round5">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg2"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="ROUND 4"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#ffffff"
+        android:layout_marginTop="36sp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:src="@drawable/darkcharimgleft"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="60sp"
+        android:id="@+id/round5charleft"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="160dp"
+        android:layout_marginLeft="60sp"
+        android:id="@+id/round5rockthrowleft"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginBottom="90dp"
+        android:id="@+id/round5throwleft"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:src="@drawable/darkcharimgright"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="60sp"
+        android:id="@+id/round5charright"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="160dp"
+        android:layout_marginRight="60sp"
+        android:id="@+id/round5rockthrowright"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="140dp"
+        android:layout_marginBottom="90dp"
+        android:id="@+id/round5throwright"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="SCORE"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:layout_margin="30dp"
+        android:id="@+id/score"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:text="BEGINS"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:id="@+id/display"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="❌"
+        android:textColor="#ffffff"
+        android:background="@color/cardview_shadow_start_color"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+        android:id="@+id/quit"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+
+        <Button
+            android:id="@+id/btnFire5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIRE🔥"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:layout_margin="30dp"
+            />
+
+
+        <Button
+            android:id="@+id/btnWater5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WATER💧"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:layout_margin="30dp"/>
+
+
+        <Button
+            android:id="@+id/btnLeaf5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LEAF🍃"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:layout_margin="30dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ROCK🗿"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_margin="30dp"
+            android:id="@+id/btnRock5"
+            android:background="@color/cardview_shadow_start_color"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ELECTRIC⚡"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_margin="30dp"
+            android:id="@+id/btnElectric5"
+            android:background="@color/cardview_shadow_start_color"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✔"
+        android:textColor="#ff0000"
+        android:background="@color/cardview_shadow_start_color"
+        android:layout_margin="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="30dp"
+        android:id="@+id/resultscreen"/>
+
+</RelativeLayout>

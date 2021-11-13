@@ -1,0 +1,2 @@
+rootProject.name = "War of Wizards"
+include ':app'

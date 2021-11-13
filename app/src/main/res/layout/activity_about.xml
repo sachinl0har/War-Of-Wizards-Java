@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/main"
+        android:scaleType="centerCrop"/>
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/black"
+        android:text="❌"
+        android:textSize="30dp" />
+
+    <TextView
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:fontFamily="sans-serif-black"
+        android:textSize="54sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:id="@+id/about"/>
+    <TextView
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First You need to Enter the Game by clicking on Play Button. There are 4 Rounds and each Round will be executed 3 times and Final Round is One on One Fight. From Round 1 to 4 there are elements and Each Element has a weakness So choose Wisely. Each Round has 3 Points so Total Points is 15, You have to Score more than Comp to Win. In Round 5 there is Health Bar System You and Comp will have 500 HP and the Match is like Match till Death You will continue Fighting untill Someone's Dead. All the best"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        android:layout_below="@+id/about"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:id="@+id/howtoplay"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Developed by viplovsurv3 and sachinl0har."
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        android:layout_below="@id/howtoplay"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:id="@+id/aboutdev"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\@copyrights All Rights Reserved"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        android:layout_below="@id/aboutdev"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        />
+
+</RelativeLayout>
