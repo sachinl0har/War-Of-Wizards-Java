@@ -1,6 +1,6 @@
 # War-Of-Wizards-Java
 
-Graphically Game Under Development.But you can see the Game Concept By Playing this Command-Line Game.
+![](https://github.com/sachinl0har/War-Of-Wizards-Java/blob/main/result/warofwizardsgif.gif)
 
 © copyright All Rights Reserved
 
